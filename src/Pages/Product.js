@@ -1,6 +1,11 @@
+import { Fragment } from "react";
+import Products from "../Componet/Product/Products";
+
 const Product = () => {
     return (
-        <h1>hi</h1>
+        <Fragment>
+            <Products />
+        </Fragment>
     )
 }
 
