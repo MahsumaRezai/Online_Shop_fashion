@@ -1,9 +1,12 @@
+import { Fragment } from "react";
+import Homeone from "./Pages/Home_one";
 
 function App() {
 
-
   return (
-    <h2>kkfkfk</h2>
+    <Fragment>
+      <Homeone />
+    </Fragment>
   )
 }
 
