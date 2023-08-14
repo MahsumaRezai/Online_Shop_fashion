@@ -11,8 +11,10 @@ body {
 
 }
 .head {
-  background: #ffc107;
+  background: #f3a20d;
   width: 100%;
-  padding: 50px
+  padding: 30px;
+  color: white;
+  text-align: center
 }
 

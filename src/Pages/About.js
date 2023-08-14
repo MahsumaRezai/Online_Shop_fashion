@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import HeadAbout from "../Componet/About/HeadAbout";
+import Abouts from '../Componet/About/Abouts'
 
 const About = () => {
     return (
         <Fragment>
-            <HeadAbout />
+            <Abouts />
         </Fragment>
     )
 }
