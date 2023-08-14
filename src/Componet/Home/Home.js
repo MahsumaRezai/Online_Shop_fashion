@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import img from '../images/ban_img.png';
 import classes from './Home.module.css'
+import HomeHeader from "../HomeHeader/HomeHeader";
 const Home = (props) => {
     return (
         <Fragment>
@@ -14,6 +15,7 @@ const Home = (props) => {
                     <img src={img} alt="img" className={classes.img} />
                 </div>
             </div>
+            <HomeHeader />
         </Fragment>
     )
 }
