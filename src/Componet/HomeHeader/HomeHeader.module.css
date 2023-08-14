@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    margin-top: -10px
+
+}
+.cartOne {
+    background: #f2c119;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.cartTwo {
+    background: #183661;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
