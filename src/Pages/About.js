@@ -1,6 +1,11 @@
+import { Fragment } from "react";
+import HeadAbout from "../Componet/About/HeadAbout";
+
 const About = () => {
     return (
-        <h1>hi</h1>
+        <Fragment>
+            <HeadAbout />
+        </Fragment>
     )
 }
 

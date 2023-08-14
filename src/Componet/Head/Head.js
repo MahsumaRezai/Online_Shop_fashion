@@ -10,10 +10,6 @@ const Head = (props) => {
                 <li><Link to='/fashion' className={classes.link}>Fahsion</Link></li>
                 <li><Link to='/new' className={classes.link}>News</Link></li>
                 <li><Link to='/contact' className={classes.link}>Contact Us</Link></li>
-
-
-
-
             </ul>
 
 
