@@ -8,19 +8,12 @@ const Home = (props) => {
                 <div className={classes.text}>
                     <h1> Online shop fashion </h1>
                     <p>A huge fashion collection for ever</p>
+                    <button className={classes.btn}>Show Now</button>
                 </div>
-
                 <div className={classes.shape}>
                     <img src={img} alt="img" className={classes.img} />
                 </div>
-              
-
-
-
-
-
             </div>
-
         </Fragment>
     )
 }

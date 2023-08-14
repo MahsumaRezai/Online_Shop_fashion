@@ -11,7 +11,10 @@
 .text {
     display: flex;
     flex-direction: column;
-    gap: 50px
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
 }
 .text h1 {
     font-size: 60px;
@@ -20,9 +23,19 @@
     color: #183661;
 
 }
+.btn {
+    border:none;
+    width: 100%;
+    padding: 20px;
+    background: #183661;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px
+    
+
+}
 .text p{
     color: #f2c119;
     font-size: 30px;
-    font-weight: bold;
 
 }
