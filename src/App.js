@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Homeone from "./Pages/Home_one";
+import Homeone from "./Pages/Homeone";
 
 function App() {
 

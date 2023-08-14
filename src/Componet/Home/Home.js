@@ -1,17 +1,19 @@
 import { Fragment } from "react";
-import img from '../images/ban_img.png'
+import img from '../images/ban_img.png';
+import classes from './Home.module.css'
 const Home = (props) => {
     return (
         <Fragment>
-            <div>
-                <div>
-                    <h1> Online shop  fashion </h1>
+            <div className={classes.content}>
+                <div className={classes.text}>
+                    <h1> Online shop fashion </h1>
                     <p>A huge fashion collection for ever</p>
                 </div>
-                <div>
-                    <img src={img} alt="img" />
 
+                <div className={classes.shape}>
+                    <img src={img} alt="img" className={classes.img} />
                 </div>
+              
 
 
 
