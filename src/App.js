@@ -7,6 +7,7 @@ import Product from "./Pages/Product";
 import Fashion from "./Pages/Fashion";
 import New from "./Pages/New";
 import Contact from "./Pages/Contact";
+import Footer from "./Footer/Footer";
 
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
         <Contact />
 
       </Route>
-
+      <Footer />
 
 
     </Fragment>
