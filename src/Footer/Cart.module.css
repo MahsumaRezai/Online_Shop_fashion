@@ -1,0 +1,21 @@
+.cart {
+    background: white;
+    width: fit-content;
+    border-radius: 5px ;
+    height: 180px;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    margin-top: -50px
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center
+}
