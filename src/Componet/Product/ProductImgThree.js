@@ -1,12 +1,12 @@
-import img1 from '../images/shoes1.png';
-import img2 from '../images/shoes2.png';
-import img3 from '../images/shoes3.png';
-import img4 from '../images/shoes4.png';
-import img5 from '../images/shoes5.png';
+import img1 from '../images/mix1.png';
+import img2 from '../images/mix2.png';
+import img3 from '../images/mix3.png';
+import img4 from '../images/mix4.png';
+import img5 from '../images/mix5.png';
 import classes from './ProductImg.module.css'
 
 
-const ProductImg = (props) => {
+const ProductImgThree = (props) => {
     return (
         <div className={classes.content}>
             <div className={classes.img}>
@@ -49,4 +49,4 @@ const ProductImg = (props) => {
         </div>
     )
 }
-export default ProductImg;
+export default ProductImgThree;
