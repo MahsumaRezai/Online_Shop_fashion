@@ -3,5 +3,22 @@
     height: 300px;
     width: 100%;
     margin-top: 100px;
-    
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px;    
+}
+.text h1{
+    color: #f3a20d;
+    font-size: 40px;
+}
+.text p {
+    color: white;
+    line-height: 1.625;
+    font-size: 17px;
 }
