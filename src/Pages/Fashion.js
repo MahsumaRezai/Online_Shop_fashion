@@ -1,6 +1,11 @@
+import { Fragment } from "react";
+//import Fash
+
 const Fashion = () => {
     return (
-        <h1>hi</h1>
+        <Fragment>
+            <Fashion/>
+        </Fragment>
     )
 }
 
