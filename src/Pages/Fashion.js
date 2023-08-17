@@ -1,10 +1,12 @@
 import { Fragment } from "react";
-//import Fash
+import Fahsion from "../Componet/Fashsion/Fahsion";
+
 
 const Fashion = () => {
     return (
         <Fragment>
-            <Fashion/>
+            <Fahsion />
+
         </Fragment>
     )
 }

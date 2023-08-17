@@ -5,6 +5,7 @@ const Product = () => {
     return (
         <Fragment>
             <Products />
+
         </Fragment>
     )
 }
