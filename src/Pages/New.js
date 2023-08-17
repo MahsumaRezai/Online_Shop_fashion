@@ -1,6 +1,12 @@
+import { Fragment } from "react";
+import News from "../Componet/News/News";
+
 const New = () => {
     return (
-        <h1>hi</h1>
+        <Fragment>
+            <News />
+        </Fragment>
+
     )
 }
 
