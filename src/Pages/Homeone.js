@@ -1,6 +1,6 @@
 import Home from "../Componet/Home/Home";
 import { Fragment } from "react";
-import Text from '../Componet/About/Text'
+import About  from  '../Componet/About/Abouts'
 import Product from "./Product";
 import Fashion from "./Fashion";
 import News from "../Componet/News/News";
@@ -12,7 +12,7 @@ const Homeone = () => {
         <Fragment>
 
             <Home />
-            <Text />
+            <About/>
             <Product />
             <Fashion />
             <News />

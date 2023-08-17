@@ -9,6 +9,14 @@
    background-repeat: no-repeat;
    background-size: cover;width: 100%;
 }
+
+@media screen and (max-width:900px){
+    .content{
+        background: wheat;
+        flex-direction: column;
+        gap: 7%
+    }
+}
 .img  {
     height:auto;
 }
@@ -27,6 +35,12 @@
     color: #183661;
 
 }
+@media screen and (max-width:500px){
+    .text h1 {
+        font-size: inherit;
+        padding-top: 30px
+    }
+}
 .btn {
     border:none;
     width: 100%;
@@ -42,4 +56,10 @@
     color: #f2c119;
     font-size: 30px;
 
+}
+@media screen and (max-width:500px){
+    .text p {
+        font-size: inherit;
+        padding-top: 30px
+    }
 }
