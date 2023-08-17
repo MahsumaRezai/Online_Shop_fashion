@@ -1,6 +1,11 @@
+import { Fragment } from "react";
+import Form from "../Componet/Form/Form";
+
 const Contact = () => {
     return (
-        <h1>hi</h1>
+        <Fragment>
+            <Form />
+        </Fragment>
     )
 }
 
