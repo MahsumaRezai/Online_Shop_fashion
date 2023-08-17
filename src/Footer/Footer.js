@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import classes from './Footer.module.css'
 import Cart from "./Cart";
+import img from '../Componet/images/email.png'
 
 const Footer = (props) => {
     return (
@@ -9,9 +10,14 @@ const Footer = (props) => {
                 <Cart />
                 <div className={classes.text}>
                     <h1>Information</h1>
-                    <p>There are many variations of passages of Lorem Ipsum available,<br></br> but the majority have suffered alteration in some form,
-                         by injected humour,<br></br> or randomised words which don't look even slightly believable</p>
+
                 </div>
+                <div className={classes.email}>
+                    <img src={img} />
+                    <span><a>mahsuma.rezai8@gmail.com </a></span>
+
+                </div>
+
 
             </div>
         </Fragment>

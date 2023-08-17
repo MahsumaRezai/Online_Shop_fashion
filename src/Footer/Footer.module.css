@@ -1,5 +1,5 @@
 .Footer {
-    background: #183661;
+    background:#f3a20d;
     height: 350px;
     width: 100%;
     margin-top: 100px;
@@ -14,8 +14,20 @@
     gap: 10px;    
 }
 .text h1{
-    color: #f3a20d;
+    color: #183661;
     font-size: 40px;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap:10px
+}
+.email span {
+    font-size: 20px;
+    color: #183661
 }
 .text p {
     color: white;
