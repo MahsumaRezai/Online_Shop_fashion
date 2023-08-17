@@ -1,9 +1,12 @@
 import { Fragment } from "react";
 import classes from './Form.module.css'
+import FormHead from "./FormHead";
 
 const Form = (props) => {
     return (
         <Fragment>
+            <FormHead />
+
             <form >
                 <div className={classes.content}>
                     <input placeholder="Name" />
@@ -16,6 +19,8 @@ const Form = (props) => {
                 <div className={classes.content}>
                     <input placeholder="Massage" className={classes.inp} />
                 </div>
+                <button className={classes.btn}>Send me</button>
+
 
             </form>
 

@@ -9,7 +9,7 @@
 }
 form {
     padding-top: 100px;
-    padding-bottom: 200px
+    padding-bottom: 200px;
 }
 form input{
     width: 30%;
@@ -17,10 +17,27 @@ form input{
     border: 1px solid #183661;
     padding: 10px;
     box-shadow: 0 0 5px rgba(243, 195, 30, 0.5);
-    font-size: 15px
+    font-size: 15px;
 
 }
 .inp {
-    width: 62%;
+    width: 61.1%;
     height: 150px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;;
+    width: fit-content;
+    margin: auto;
+    background: #183661;
+    border:  1px solid #183661;
+    color: white;
+    padding: 30px 100px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    
 }
