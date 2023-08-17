@@ -5,7 +5,11 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center
+}
+@media screen and (max-width:900px){
+    .head{
+        height: 150px;
+    }
 }
 .head ul {
     display: flex;
@@ -14,6 +18,14 @@
     align-items: center;
     gap:40px;
     color: white
+}
+@media screen and (max-width:900px){
+    .head ul{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 5px
+    }
 }
 .head li {
     text-decoration: none;

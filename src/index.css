@@ -18,6 +18,11 @@ body {
   text-align: center;
   font-size: 30px;
 }
+@media screen and (max-width:900px){
+ .head {
+   font-size: 18px
+ }
+}
 .btn {
   width: 200px;
   padding: 20px;

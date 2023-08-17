@@ -10,10 +10,20 @@
     font-size: 40px;
     color: #183661;
 }
+@media screen and (max-width:900px){
+    .text h1{
+        font-size: inherit
+    }
+}
 .text p{
     line-height: 1.800;
     text-align: center;
     font-size: 18px;
+}
+@media screen and (max-width:900px){
+    .text p{
+      font-size: inherit;
+    }
 }
 .Images {
     display: flex;

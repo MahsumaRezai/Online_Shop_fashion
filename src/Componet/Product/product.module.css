@@ -5,3 +5,8 @@
    background-size: cover;
    width: 100%;
 }
+@media screen and (max-width:900px){
+    .about{
+        background: white
+    }
+}

@@ -6,20 +6,49 @@
     gap: 30px;
     padding-top: 100px
 }
+@media screen and (max-width:900px){
+    .content{
+        flex-direction: column;
+       
+    }
+}
+
 .text {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+@media screen and (max-width:900px){
+    .text{
+        justify-content: center;
+        align-items: center;
+    }
 }
 .text p{
     line-height: 1.625;
     font-size: 18px;
 
 }
+@media screen and (max-width:900px){
+    .text p{
+       font-size: inherit;
+       padding-left: 20px
+    }
+}
 .text  h1 {
     color: #183661;
     font-size: 35px;
 }
+@media screen and (max-width:900px){
+    .text h1{
+        font-size: inherit
+    }
+}
 .img {
     height: 400px;
+}
+@media screen and (max-width:900px){
+    .img {
+        height: 200px;
+    }
 }
