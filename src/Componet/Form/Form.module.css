@@ -1,0 +1,26 @@
+.content  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 20px
+}
+form {
+    padding-top: 100px;
+    padding-bottom: 200px
+}
+form input{
+    width: 30%;
+    height: 40px;
+    border: 1px solid #183661;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(243, 195, 30, 0.5);
+    font-size: 15px
+
+}
+.inp {
+    width: 62%;
+    height: 150px;
+}
