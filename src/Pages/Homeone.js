@@ -4,6 +4,8 @@ import Text from '../Componet/About/Text'
 import Product from "./Product";
 import Fashion from "./Fashion";
 import News from "../Componet/News/News";
+import Contact from "./Contact";
+
 
 const Homeone = () => {
     return (
@@ -11,9 +13,10 @@ const Homeone = () => {
 
             <Home />
             <Text />
-            <Product/>
-            <Fashion/>
-            <News/>
+            <Product />
+            <Fashion />
+            <News />
+            <Contact/>
         </Fragment>
     )
 }
